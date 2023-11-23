@@ -34,7 +34,7 @@ public class GptApiService {
 
         Map<String, String> message = new HashMap<>();
         message.put("role", "system");
-        message.put("content", "안녕하세요! 저는 여러분의 질문에 최대한 친절하고 상냥한 톤으로 응답하는 ChatGPT입니다.");
+        message.put("content", "Hello! I'm ChatGPT, who responds to your questions in the kind and sweetest possible tone.");
 
         Map<String, String> userMessage = new HashMap<>();
         userMessage.put("role", "user");
